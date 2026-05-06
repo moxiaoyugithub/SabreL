@@ -13,6 +13,26 @@ The current implementation supports both:
 
 The repository contains training scripts, evaluation pipelines, batch obfuscation utilities, dataset preparation scripts, and figure-generation code used in the paper.
 
+## Installation and Setup
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/moxiaoyugithub/SabreL.git
+   cd SabreL
+   ```
+
+2. Download the excluded files archive from Google Drive (link to be provided) and extract it:
+   ```bash
+   # Download sabrel_excluded.tar.gz (19GB compressed)
+   tar -xzf sabrel_excluded.tar.gz
+   ```
+   
+   This archive contains large datasets, model checkpoints, and other files excluded from the Git repository for size reasons. After extraction, the project structure will be complete and ready for use.
+
+3. Follow the detailed setup instructions in:
+   - `GTIRB_tools_prepare.md` — for GTIRB, GTIRB pretty printer, and ddisasm
+   - `envs/score/BCSD_prepare.md` — for BCSD model environments
+
 ## Features
 
 - Multi-head RL policy for binary obfuscation
