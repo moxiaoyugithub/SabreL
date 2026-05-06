@@ -1,0 +1,38 @@
+# Dataset and binaries
+dataset/
+
+# Checkpoints
+checkpoints/
+
+# BCSD model environments (large files)
+envs/score/asm2vec/
+envs/score/CLAP/
+envs/score/BinCola/
+envs/score/jTrans/
+envs/score/safe/
+
+# PalmTree pre-trained model
+arch/perceptor/palmtree_pre_trained_model
+
+# Docker backup
+docker_ida_backup.tar
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Logs and temporary files
+logs/
+tmp_eval_gtirb/
+evaluation_results/
+paper_figures/
+localhost/
+power/
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db

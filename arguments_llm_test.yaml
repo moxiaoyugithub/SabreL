@@ -1,0 +1,95 @@
+# 参数配置
+env:
+    # 基础环境名
+    base_env_name: "SABRE-v0"
+
+    # 临时文件的读写路径
+    rew_binary_dir: "dataset/rew_bin/"
+    rew_gtirbs_dir: "dataset/rew_gtirb/"
+
+    # 观测模块参数
+    mix_embedder_server_host: 'localhost'
+    mix_embedder_server_port: 7000
+
+    PalmTree_embedder_path: "arch/perceptor/palmtree_pre_trained_model/palmtree/transformer.ep19"
+    PalmTree_vocab_path: "arch/perceptor/palmtree_pre_trained_model/palmtree/vocab"
+    
+    # LLM_embedder_type: false
+    # LLM_embedder_type: "CodeBERT"
+    # LLM_embedder_type: "Gemma3"
+    #LLM_embedder_type: "CodeGemma"
+    LLM_embedder_type: "qwen2.5-coder:7b-instruct"
+
+    # 决策模块参数
+    max_blocks: 128
+    max_instructions: 32
+
+    junk_blocks_path: "envs/obfuscate/junk_blocks.json"
+
+    # 相似度模型参数
+    similarity_mode: 'avg'
+    target_model_types: ['asm2vec', 'BinCola', 'CLAP', 'jTrans', 'safe']
+    mix_similarity_server_host: 'localhost'
+    mix_similarity_server_port: 6000
+
+    # 回合成功指标
+    obf_success_similarity: 0.5
+    obf_max_inst_growth: 100
+
+    # 并行参数
+    num_processes: 4
+    num_frame_stack: 4
+
+    # 各模块的运算设备
+    sabre_device: 'cuda:4'
+    embedder_device: 'cuda:4'
+    differ_device: 'cuda:0'
+
+    debug: true
+    draw_cfg: false
+
+arch:
+    # 可训练结构参数，主要是核心网络、决策网络、价值网络
+    hidden_dim: 256
+    autoregressive_embedding_dim: 512
+
+    # 运算设备
+    decider_device: 'cuda:4'
+    
+    debug: true
+
+train:
+    # 训练数据集
+    train_data_index_json_path: 'dataset/train_5-128.sabredataset'
+    
+    # 训练数据集（影子模式）
+    # train_data_index_json_path: 'dataset/shadow_dataset/train_5-128.ssabredataset'
+
+    # 测试数据集
+    test_data_index_json_path: 'dataset/test_5-128.sabredataset'
+    
+    # 测试数据集（影子模式）
+    # test_data_index_json_path: 'dataset/shadow_dataset/test_5-128.ssabredataset'
+
+    # 学习器参数
+    ppo_clip_param: 0.2
+    ppo_epoch: 4
+    ppo_num_mini_batch: 4
+    ppo_value_loss_coef: 0.5
+    ppo_entropy_coef: 0.01
+    ppo_adam_learning_rate: 3e-4
+    ppo_adam_epsilon: 1e-5
+    ppo_max_grad_norm: 0.5
+    
+    # 总更新轮数
+    num_updates: 401
+
+    # rollout收集步数
+    storage_num_steps: 64
+
+    # 影子模式，使用纯文本进行训练
+    shadow_mode: false
+
+    checkpoints_save_path: 'checkpoints/with_llm/'
+
+    debug: false

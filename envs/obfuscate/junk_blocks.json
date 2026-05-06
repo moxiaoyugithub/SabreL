@@ -1,0 +1,467 @@
+[
+  [
+    "nop"
+  ],
+  [
+    "lea rax, [rax]"
+  ],
+  [
+    "push rax",
+    "pop rax"
+  ],
+  [
+    "lea rbx, [rbx]"
+  ],
+  [
+    "push rbx",
+    "pop rbx"
+  ],
+  [
+    "lea rcx, [rcx]"
+  ],
+  [
+    "push rcx",
+    "pop rcx"
+  ],
+  [
+    "lea rdx, [rdx]"
+  ],
+  [
+    "push rdx",
+    "pop rdx"
+  ],
+  [
+    "lea rsi, [rsi]"
+  ],
+  [
+    "push rsi",
+    "pop rsi"
+  ],
+  [
+    "lea rdi, [rdi]"
+  ],
+  [
+    "push rdi",
+    "pop rdi"
+  ],
+  [
+    "lea r8, [r8]"
+  ],
+  [
+    "push r8",
+    "pop r8"
+  ],
+  [
+    "lea r9, [r9]"
+  ],
+  [
+    "push r9",
+    "pop r9"
+  ],
+  [
+    "lea r10, [r10]"
+  ],
+  [
+    "push r10",
+    "pop r10"
+  ],
+  [
+    "lea r11, [r11]"
+  ],
+  [
+    "push r11",
+    "pop r11"
+  ],
+  [
+    "lea r12, [r12]"
+  ],
+  [
+    "push r12",
+    "pop r12"
+  ],
+  [
+    "lea r13, [r13]"
+  ],
+  [
+    "push r13",
+    "pop r13"
+  ],
+  [
+    "lea r14, [r14]"
+  ],
+  [
+    "push r14",
+    "pop r14"
+  ],
+  [
+    "lea r15, [r15]"
+  ],
+  [
+    "push r15",
+    "pop r15"
+  ],
+  [
+    "xchg rax, rbx",
+    "xchg rax, rbx"
+  ],
+  [
+    "xchg rax, rcx",
+    "xchg rax, rcx"
+  ],
+  [
+    "xchg rax, rdx",
+    "xchg rax, rdx"
+  ],
+  [
+    "xchg rax, rsi",
+    "xchg rax, rsi"
+  ],
+  [
+    "xchg rax, rdi",
+    "xchg rax, rdi"
+  ],
+  [
+    "xchg rax, r8",
+    "xchg rax, r8"
+  ],
+  [
+    "xchg rax, r9",
+    "xchg rax, r9"
+  ],
+  [
+    "xchg rax, r10",
+    "xchg rax, r10"
+  ],
+  [
+    "xchg rax, r11",
+    "xchg rax, r11"
+  ],
+  [
+    "xchg rax, r12",
+    "xchg rax, r12"
+  ],
+  [
+    "xchg rax, r13",
+    "xchg rax, r13"
+  ],
+  [
+    "xchg rax, r14",
+    "xchg rax, r14"
+  ],
+  [
+    "xchg rax, r15",
+    "xchg rax, r15"
+  ],
+  [
+    "xchg rbx, rcx",
+    "xchg rbx, rcx"
+  ],
+  [
+    "xchg rbx, rdx",
+    "xchg rbx, rdx"
+  ],
+  [
+    "xchg rbx, rsi",
+    "xchg rbx, rsi"
+  ],
+  [
+    "xchg rbx, rdi",
+    "xchg rbx, rdi"
+  ],
+  [
+    "xchg rbx, r8",
+    "xchg rbx, r8"
+  ],
+  [
+    "xchg rbx, r9",
+    "xchg rbx, r9"
+  ],
+  [
+    "xchg rbx, r10",
+    "xchg rbx, r10"
+  ],
+  [
+    "xchg rbx, r11",
+    "xchg rbx, r11"
+  ],
+  [
+    "xchg rbx, r12",
+    "xchg rbx, r12"
+  ],
+  [
+    "xchg rbx, r13",
+    "xchg rbx, r13"
+  ],
+  [
+    "xchg rbx, r14",
+    "xchg rbx, r14"
+  ],
+  [
+    "xchg rbx, r15",
+    "xchg rbx, r15"
+  ],
+  [
+    "xchg rcx, rdx",
+    "xchg rcx, rdx"
+  ],
+  [
+    "xchg rcx, rsi",
+    "xchg rcx, rsi"
+  ],
+  [
+    "xchg rcx, rdi",
+    "xchg rcx, rdi"
+  ],
+  [
+    "xchg rcx, r8",
+    "xchg rcx, r8"
+  ],
+  [
+    "xchg rcx, r9",
+    "xchg rcx, r9"
+  ],
+  [
+    "xchg rcx, r10",
+    "xchg rcx, r10"
+  ],
+  [
+    "xchg rcx, r11",
+    "xchg rcx, r11"
+  ],
+  [
+    "xchg rcx, r12",
+    "xchg rcx, r12"
+  ],
+  [
+    "xchg rcx, r13",
+    "xchg rcx, r13"
+  ],
+  [
+    "xchg rcx, r14",
+    "xchg rcx, r14"
+  ],
+  [
+    "xchg rcx, r15",
+    "xchg rcx, r15"
+  ],
+  [
+    "xchg rdx, rsi",
+    "xchg rdx, rsi"
+  ],
+  [
+    "xchg rdx, rdi",
+    "xchg rdx, rdi"
+  ],
+  [
+    "xchg rdx, r8",
+    "xchg rdx, r8"
+  ],
+  [
+    "xchg rdx, r9",
+    "xchg rdx, r9"
+  ],
+  [
+    "xchg rdx, r10",
+    "xchg rdx, r10"
+  ],
+  [
+    "xchg rdx, r11",
+    "xchg rdx, r11"
+  ],
+  [
+    "xchg rdx, r12",
+    "xchg rdx, r12"
+  ],
+  [
+    "xchg rdx, r13",
+    "xchg rdx, r13"
+  ],
+  [
+    "xchg rdx, r14",
+    "xchg rdx, r14"
+  ],
+  [
+    "xchg rdx, r15",
+    "xchg rdx, r15"
+  ],
+  [
+    "xchg rsi, rdi",
+    "xchg rsi, rdi"
+  ],
+  [
+    "xchg rsi, r8",
+    "xchg rsi, r8"
+  ],
+  [
+    "xchg rsi, r9",
+    "xchg rsi, r9"
+  ],
+  [
+    "xchg rsi, r10",
+    "xchg rsi, r10"
+  ],
+  [
+    "xchg rsi, r11",
+    "xchg rsi, r11"
+  ],
+  [
+    "xchg rsi, r12",
+    "xchg rsi, r12"
+  ],
+  [
+    "xchg rsi, r13",
+    "xchg rsi, r13"
+  ],
+  [
+    "xchg rsi, r14",
+    "xchg rsi, r14"
+  ],
+  [
+    "xchg rsi, r15",
+    "xchg rsi, r15"
+  ],
+  [
+    "xchg rdi, r8",
+    "xchg rdi, r8"
+  ],
+  [
+    "xchg rdi, r9",
+    "xchg rdi, r9"
+  ],
+  [
+    "xchg rdi, r10",
+    "xchg rdi, r10"
+  ],
+  [
+    "xchg rdi, r11",
+    "xchg rdi, r11"
+  ],
+  [
+    "xchg rdi, r12",
+    "xchg rdi, r12"
+  ],
+  [
+    "xchg rdi, r13",
+    "xchg rdi, r13"
+  ],
+  [
+    "xchg rdi, r14",
+    "xchg rdi, r14"
+  ],
+  [
+    "xchg rdi, r15",
+    "xchg rdi, r15"
+  ],
+  [
+    "xchg r8, r9",
+    "xchg r8, r9"
+  ],
+  [
+    "xchg r8, r10",
+    "xchg r8, r10"
+  ],
+  [
+    "xchg r8, r11",
+    "xchg r8, r11"
+  ],
+  [
+    "xchg r8, r12",
+    "xchg r8, r12"
+  ],
+  [
+    "xchg r8, r13",
+    "xchg r8, r13"
+  ],
+  [
+    "xchg r8, r14",
+    "xchg r8, r14"
+  ],
+  [
+    "xchg r8, r15",
+    "xchg r8, r15"
+  ],
+  [
+    "xchg r9, r10",
+    "xchg r9, r10"
+  ],
+  [
+    "xchg r9, r11",
+    "xchg r9, r11"
+  ],
+  [
+    "xchg r9, r12",
+    "xchg r9, r12"
+  ],
+  [
+    "xchg r9, r13",
+    "xchg r9, r13"
+  ],
+  [
+    "xchg r9, r14",
+    "xchg r9, r14"
+  ],
+  [
+    "xchg r9, r15",
+    "xchg r9, r15"
+  ],
+  [
+    "xchg r10, r11",
+    "xchg r10, r11"
+  ],
+  [
+    "xchg r10, r12",
+    "xchg r10, r12"
+  ],
+  [
+    "xchg r10, r13",
+    "xchg r10, r13"
+  ],
+  [
+    "xchg r10, r14",
+    "xchg r10, r14"
+  ],
+  [
+    "xchg r10, r15",
+    "xchg r10, r15"
+  ],
+  [
+    "xchg r11, r12",
+    "xchg r11, r12"
+  ],
+  [
+    "xchg r11, r13",
+    "xchg r11, r13"
+  ],
+  [
+    "xchg r11, r14",
+    "xchg r11, r14"
+  ],
+  [
+    "xchg r11, r15",
+    "xchg r11, r15"
+  ],
+  [
+    "xchg r12, r13",
+    "xchg r12, r13"
+  ],
+  [
+    "xchg r12, r14",
+    "xchg r12, r14"
+  ],
+  [
+    "xchg r12, r15",
+    "xchg r12, r15"
+  ],
+  [
+    "xchg r13, r14",
+    "xchg r13, r14"
+  ],
+  [
+    "xchg r13, r15",
+    "xchg r13, r15"
+  ],
+  [
+    "xchg r14, r15",
+    "xchg r14, r15"
+  ]
+]
