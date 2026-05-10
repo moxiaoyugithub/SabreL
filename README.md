@@ -21,7 +21,7 @@ The repository contains training scripts, evaluation pipelines, batch obfuscatio
    cd SabreL
    ```
 
-2. Download the excluded files archive from Google Drive (link to be provided) and extract it:
+2. Download the excluded files archive from Google Drive[https://drive.google.com/file/d/1tVtO7fGTvrTn5fyHgMMdk4Jl8yhIyyRJ/view?usp=sharing] and extract it:
    ```bash
    # Download sabrel_excluded.tar.gz (19GB compressed)
    tar -xzf sabrel_excluded.tar.gz
